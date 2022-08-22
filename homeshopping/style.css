@@ -1,0 +1,68 @@
+@charset "UTF-8";
+header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: #3F1052;
+	color: white;
+	text-align:center;
+	line-height: 12px;
+	font-size: 15px;
+}
+footer {
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	height:45px;
+	background-color: #3F1052;
+	color:white;
+	text-align: center;
+	line-height:40px;
+	font-size:15px;
+}
+a {
+  text-decoration: none;
+}
+a { text-decoration: none; color: black; }    
+a:visited { text-decoration: none; }    
+a:hover { text-decoration: none; }    
+a:focus { text-decoration: none; }    
+a:hover, a:active { text-decoration: none; }
+
+nav {
+	position: fixed;
+	top: 50px;
+	width: 100%;
+	height: 35px;
+	background-color: purple;
+	color: white;
+	line-height: 12px;
+	padding-left: 20px;
+	font-size:15px;
+}
+h2{
+	text-align: center;
+}
+section {
+	position: fixed;
+	top: 85px;
+	width: 100%;
+	height: 100%;
+	background-color: lightgray;
+}
+section > h1{
+	text-align:center;
+}
+section > form > table{
+	text-align:center;
+}
+section > form > table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+section > form > table, td, th {
+    border-collapse : collapse;
+    border : 1px solid black;
+};

@@ -42,5 +42,12 @@ insert into money_tbl_02(custno, salenol, pcost, amount, price, pcode,sdate) val
 insert into money_tbl_02(custno, salenol, pcost, amount, price, pcode,sdate) values(100004, 20160010, 3000, 1, 3000, 'A007', '20160106');
 
 
-
 commit;
+
+
+// 탑티어 조회
+select me.custno, me.custname, me.grade, sum(mo.price) as total
+from member_tbl_02 me, money_tbl_02 mo
+where me.custno = mo.custno
+group by me.custno,me.custname, me.grade
+order by sum(mo.price) desc;

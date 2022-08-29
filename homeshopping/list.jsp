@@ -12,6 +12,8 @@
 <body>
 <jsp:include page="header.jsp"/>
 <section>
+<h1>회원목록조회/수정</h1>
+<form>
 <table border="1">
 					<tr>
 						<td>회원번호</td>
@@ -67,6 +69,7 @@
 %>
 	
 		</table>
+		</form>
 		</section>
 	<jsp:include page="footer.jsp"/>
 </body>

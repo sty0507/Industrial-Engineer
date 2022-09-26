@@ -92,14 +92,14 @@
 							
 				%>
 				<tr>
-					<td><%= id %></td>
+					<td><a href="modify.jsp?id=<%= id %>"><%= id %></a></td>
 					<td><%= rs.getString("name") %></td>
 					<td><%= rs.getInt("credit") %></td>
 					<td><%= rs.getString("lecturername") %></td>
 					<td><%= mon %></td>
 					<td><%= start %></td>
 					<td><%= end %></td>
-					<td><a href="action.jsp?id=<%=id %>">삭제</a></td>
+					<td><a href="action.jsp?id=<%=id %>&mode='delete'">삭제</a></td>
 				</tr>
 				<%
 						}

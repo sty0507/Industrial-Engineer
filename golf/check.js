@@ -1,6 +1,3 @@
-/**
- * 
- */
  let 나눌수 = 1;
  function Check(){
      if(document.frm.month.value.length == 0){

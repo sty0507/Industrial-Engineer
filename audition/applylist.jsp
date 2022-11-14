@@ -30,12 +30,16 @@
 					+ " group by a.artist_id, a.artist_name";
 			ResultSet rs = stmt.executeQuery(sql);
 			while(rs.next()){
+				String avgscore = rs.getString("avgscore");
+				if(!avgscore.contains(".")){
+					avgscore = avgscore + ".00";
+				}
 				%>
 				<tr>
 					<td><%= rs.getString("aid") %></td>
 					<td><%= rs.getString("aname") %></td>
 					<td><%= rs.getString("총점") %></td>
-					<td><%= rs.getString("avgscore") %></td>
+					<td><%= avgscore%></td>
 					<td><%= rs.getString("ranking") %></td>
 				</tr>
 				<%

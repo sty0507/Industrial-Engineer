@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel ="stylesheet" href = "style.css">
 </head>
 <body>
-	<footer>HRDKOREA Copyright@2015 All rights reserved. Human Resources Development Service of Korea</footer>
+<footer>나는야 서태영</footer>
 </body>
 </html>

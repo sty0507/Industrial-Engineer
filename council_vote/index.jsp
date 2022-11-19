@@ -3,18 +3,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel ="stylesheet" href = "style.css">
 </head>
 <body>
 <jsp:include page="header.jsp"></jsp:include>
 <section>
-	<h1>과정평가형 자격 CBQ</h1>
-	<p>무언가의 내용이 들어있음</p>
-	<p>내용</p>
-	<p>내용</p>
-	<p>내용</p>
+<h1>과정평가형 자격 CBQ</h1>
+<p>무언가의 내용이 들어왔음</p>
+<p>내용</p>
+<p>내용</p>
+<p>내용</p>
 </section>
 <jsp:include page="footer.jsp"></jsp:include>
 </body>

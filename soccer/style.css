@@ -1,0 +1,40 @@
+@charset "UTF-8";
+header{
+	position: fixed;
+	top: 0px;
+	height: 70px;
+	width: 100%;
+	background-color: blue;
+	text-align: center;
+}
+nav{
+	position: fixed;
+	top: 70px;
+	height: 30px;
+	width: 100%;
+	background-color: gray;
+}
+footer{
+	position: fixed;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	background-color: blue;
+	text-align: center;
+	color: white;
+}
+section{
+	position:fixed;
+	top: 100px;
+	height: 100%;
+	width: 100%;
+	background-color: purple;
+	color: white;
+	text-align:center;
+}
+
+section > table, section > form>table{
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
